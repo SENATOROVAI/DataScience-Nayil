@@ -36,7 +36,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install "nbqa[toolchain]" pylint isort "black[jupyter]" mypy pyupgrade flake8-variables-names pep8-naming flake8-functions-names pandas-stubs git+https://github.com/numpy/numpy-stubs mypy-extensions types-requests types-PyYAML types-setuptools
+        pip install "nbqa[toolchain]" pylint autopep8 ruff isort "black[jupyter]" mypy pyupgrade flake8-variables-names pep8-naming flake8-functions-names pandas-stubs git+https://github.com/numpy/numpy-stubs mypy-extensions types-requests types-PyYAML types-setuptools
     - name: Black
       run: |
         black --line-length=79 $(git ls-files '*.py' '*.ipynb')
@@ -44,6 +44,12 @@ jobs:
     - name: pyupgrade
       run: |
         nbqa pyupgrade $(git ls-files '*.py' '*.ipynb')
+    - name: ruff
+      run: |
+        ruff  check --fix --unsafe-fixes $(git ls-files '*.py' '*.ipynb')
+    - name: autopep
+      run: |
+        autopep8 --in-place --aggressive --aggressive $(git ls-files '*.py' '*.ipynb')
     - name: isort
       run: |
         isort --diff $(git ls-files '*.py' '*.ipynb')
