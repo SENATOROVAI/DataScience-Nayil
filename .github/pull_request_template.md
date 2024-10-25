@@ -1,6 +1,6 @@
 ### Describe your change:
 
-ПИШЕМ ЗДЕСЬ ЧТО СДЕЛАЛИ, И ВМЕСТО 'ISSUE-NUMBER' вставляем номер 
+ПИШЕМ ЗДЕСЬ ЧТО СДЕЛАЛИ, И ВМЕСТО 'ISSUE-NUMBER' вставляем номер
 
 Fixes #ISSUE-NUMBER
 
