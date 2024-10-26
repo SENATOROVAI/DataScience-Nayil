@@ -1,17 +1,17 @@
 
 ## Math
-  * Probability
-    * [Independent Events Problems](Math/probability/independent_events_problems.ipynb)
+  * Probability Theory
+    * Elementary Course Probability Theory
+      * [Chapter 1 Set Theory](Math/probability_theory/elementary_course_probability_theory/chapter_1_set_theory.ipynb)
+    * [Problem Set Classical Probability Definition](Math/probability_theory/problem_set_classical_probability_definition.ipynb)
 
 ## Python
-  * Made-Easy
-    * [Chapter 1 Introduction To Data Science And Programming Basics.Ipynb](Python/made-easy/chapter_1_introduction_to_data_science_and_programming_basics.ipynb.ipynb)
-    * [Chapter 2 Python Basics](Python/made-easy/chapter_2_python_basics.ipynb)
-    * [Chapter 3 Python Basics](Python/made-easy/chapter_3_python_basics.ipynb)
-    * [Chapter 4 Objects And Operators In Python](Python/made-easy/chapter_4_objects_and_operators_in_python.ipynb)
-    * [Chapter 4 Practice Part Python Made Easy](Python/made-easy/chapter_4_practice_part_python_made_easy.ipynb)
-    * [Chapter 5 Python Flow Control Operators Python Made Easy](Python/made-easy/chapter_5_python_flow_control_operators_python_made_easy.ipynb)
-    * [Chapter 6 Functions Python Made Easy](Python/made-easy/chapter_6_functions_python_made_easy.ipynb)
-    * [Chapter 9 Input Output Of Data And Working With Files Python Made Easy](Python/made-easy/chapter_9_input_output_of_data_and_working_with_files_python_made_easy.ipynb)
+  * Clean Code
+    * [Chapter 4 Choosing Clear Names](Python/clean_code/chapter_4_choosing_clear_names.ipynb)
+  * Made Easy
+    * [Chapter 1 Intro To Data Science](Python/made_easy/chapter_1_intro_to_data_science.ipynb)
+    * [Chapter 2 Introduction To Py](Python/made_easy/chapter_2_introduction_to_py.ipynb)
+    * [Chapter 3 Python Basics](Python/made_easy/chapter_3_python_basics.ipynb)
+    * [Chapter 4 Object And Operators In Python](Python/made_easy/chapter_4_object_and_operators_in_python.ipynb)
 
 ## [Log](/log.ipynb)
