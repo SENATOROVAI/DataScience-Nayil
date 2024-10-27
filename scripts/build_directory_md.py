@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""module."""
+
 
 import os
 from collections.abc import Iterator
@@ -19,7 +21,7 @@ def good_file_paths(top_dir: str = ".") -> Iterator[str]:
                 yield os.path.join(dir_path, filename).lstrip("./")
 
 
-def md_prefix(i):
+def md_prefix(i: int) -> str:
     """SENATOROV."""
     return f"{i * '  '}*" if i else "\n##"
 

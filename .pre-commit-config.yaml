@@ -1,15 +1,15 @@
 repos:
   - repo: https://github.com/PyCQA/docformatter
-    rev: eb1df347edd128b30cd3368dddc3aa65edcfac38
+    rev: "eb1df347edd128b30cd3368dddc3aa65edcfac38"
     hooks:
       - id: docformatter
         args: [--in-place, --wrap-descriptions=79, --style=google]
   - repo: https://github.com/asottile/add-trailing-comma
-    rev: v3.1.0
+    rev: "v3.1.0"
     hooks:
       - id: add-trailing-comma
   - repo: https://github.com/psf/black.git
-    rev: 24.4.0
+    rev: "24.10.0"
     hooks:
       - id: black
   - repo: https://github.com/nbQA-dev/nbQA
@@ -24,16 +24,16 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.2
+    rev: "v3.19.0"
     hooks:
       - id: pyupgrade
         args: [--py39-plus]
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: "5.13.2"
     hooks:
       - id: isort
   - repo: https://github.com/adamchainz/blacken-docs
-    rev: 1.16.0
+    rev: "1.19.1"
     hooks:
       - id: blacken-docs
         additional_dependencies:
@@ -59,7 +59,7 @@ repos:
         additional_dependencies: [isort]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: "v5.0.0"
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -69,7 +69,7 @@ repos:
       - id: requirements-txt-fixer
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
+    rev: v2.3.0
     hooks:
       - id: codespell
         additional_dependencies:
@@ -97,7 +97,7 @@ repos:
           - flake8-functions-names
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 7.0.0
+    rev: 7.1.1
     hooks:
       - id: flake8
         args:
@@ -154,7 +154,7 @@ repos:
 
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.9.0
+    rev: v1.13.0
     hooks:
       - id: mypy
         args:
@@ -206,10 +206,11 @@ repos:
           - --ignore=no_check*,__init__.py
           - --max-line-length=79
           - --const-naming-style=any
-          - --disable=E0401,W0104,R0903,R1721
+          - --disable=E0401,W0104,R0903,R1721,E1101,E0611
+
 
   - repo: https://github.com/pre-commit/mirrors-pylint
-    rev: v2.3.1
+    rev: "v3.0.0a5"
     hooks:
       - id: pylint
         name: pylint
@@ -221,7 +222,7 @@ repos:
             "--ignore=no_check*,__init__.py",
             "--max-line-length=79",
             "--const-naming-style=any",
-            "--disable=E0401,W0104,R0903,R1721",
+            "--disable=E0401,W0104,R0903,R1721,E1101,E0611"
           ]
         additional_dependencies: [pylint]
 

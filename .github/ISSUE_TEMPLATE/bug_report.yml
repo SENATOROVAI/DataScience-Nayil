@@ -7,7 +7,7 @@ body:
       value: >
           <p>Attention! </p>
           <b>We insert an error message from the terminal into the name of the issues!</b>
- 
+
   - type: markdown
     attributes:
       value: >
@@ -21,7 +21,7 @@ body:
       placeholder: "a0b0f414ae134aa1772d33bb930e5a960f9979e8"
     validations:
       required: false
-      
+
   - type: input
     attributes:
       label: "Video"
@@ -30,9 +30,9 @@ body:
       placeholder: "link to the video"
     validations:
       required: false
-  
+
   - type: textarea
-    attributes: 
+    attributes:
       label: "Attach a screenshot and write what did you do to fix the problem?"
       description: "Attach a full screenshot of your screen, which will show the entire desktop and your error"
     validations:
@@ -44,7 +44,7 @@ body:
       description: >
         write the code or copy the error from the terminal and paste it here, also provide log file if possible
       placeholder: |
-        scripts/build_directory_md.py:22: error: Function is missing a type annotation 
+        scripts/build_directory_md.py:22: error: Function is missing a type annotation
         [no-untyped-def]
             def md_prefix(i):
             ^
@@ -78,6 +78,3 @@ body:
         ...
     validations:
       required: true
-      
- 
-      
