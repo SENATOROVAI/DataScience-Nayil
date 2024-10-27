@@ -3,6 +3,8 @@
   * Probability Theory
     * Elementary Course Probability Theory
       * [Chapter 1 Set Theory](Math/probability_theory/elementary_course_probability_theory/chapter_1_set_theory.ipynb)
+    * Mathprofi
+      * [Classical Probability Problems](Math/probability_theory/mathprofi/classical_probability_problems.ipynb)
     * [Problem Set Classical Probability Definition](Math/probability_theory/problem_set_classical_probability_definition.ipynb)
 
 ## Python
