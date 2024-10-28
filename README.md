@@ -9,8 +9,7 @@
       * [Probability Theory Basics Notes](Math/probability_theory/mathprofi/probability_theory_basics_notes.ipynb)
     * [Problem Set Classical Probability Definition](Math/probability_theory/problem_set_classical_probability_definition.ipynb)
   * Remember All Emelin
-    * Chapter 02 Equations And Inequalities
-      * [Chapter 02 Equations Inequalities Summary](Math/remember_all_emelin/chapter_02_equations_and_inequalities/chapter_02_equations_inequalities_summary.ipynb)
+    * [Chapter 02 Equations Inequalities Summary](Math/remember_all_emelin/chapter_02_equations_inequalities_summary.ipynb)
 
 ## Python
   * Clean Code
