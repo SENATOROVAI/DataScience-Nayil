@@ -19,8 +19,9 @@
     * [Chapter 2 Introduction To Py](Python/made_easy/chapter_2_introduction_to_py.ipynb)
     * [Chapter 3 Python Basics](Python/made_easy/chapter_3_python_basics.ipynb)
     * [Chapter 4 Object And Operators In Python](Python/made_easy/chapter_4_object_and_operators_in_python.ipynb)
-    * [Chapter 5 Python Flow Control Operators Python Made Easy](Python/made_easy/chapter_5_python_flow_control_operators_python_made_easy.ipynb)
-    * [Chapter 6 Functions Made Easy](Python/made_easy/chapter_6_functions_made_easy.ipynb)
-    * [Chapter 7 Patterns With Loops And Functions Made Easy](Python/made_easy/chapter_7_patterns_with_loops_and_functions_made_easy.ipynb)
+    * [Chapter 5 Python Flow Control Operators](Python/made_easy/chapter_5_python_flow_control_operators.ipynb)
+    * [Chapter 6 Functions](Python/made_easy/chapter_6_functions.ipynb)
+    * [Chapter 7 Patterns With Loops And Functions](Python/made_easy/chapter_7_patterns_with_loops_and_functions.ipynb)
+    * [Chapter 8 Data Structures And Sequence](Python/made_easy/chapter_8_data_structures_and_sequence.ipynb)
 
 ## [Log](/log.ipynb)
