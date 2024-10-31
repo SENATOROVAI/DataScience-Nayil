@@ -21,5 +21,6 @@
     * [Chapter 4 Object And Operators In Python](Python/made_easy/chapter_4_object_and_operators_in_python.ipynb)
     * [Chapter 5 Python Flow Control Operators Python Made Easy](Python/made_easy/chapter_5_python_flow_control_operators_python_made_easy.ipynb)
     * [Chapter 6 Functions Made Easy](Python/made_easy/chapter_6_functions_made_easy.ipynb)
+    * [Chapter 7 Patterns With Loops And Functions Made Easy](Python/made_easy/chapter_7_patterns_with_loops_and_functions_made_easy.ipynb)
 
 ## [Log](/log.ipynb)
