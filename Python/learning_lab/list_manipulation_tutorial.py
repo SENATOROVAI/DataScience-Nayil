@@ -43,3 +43,33 @@ print()
 print(f"First element from 'example_list': {example_list[0]}")
 print(f"Last element from 'example_list': {example_list[-1]}")
 print()
+
+# Slices
+print(f"Slice of 'example_list': {example_list[0:2]}")
+print(f"Slice with step: {example_list[2:]}")
+print()
+
+# Minimum and maximum elements
+numeric_list = [2, 2.25, 1.14]
+print(f"Minimum in 'numeric_list': {min(numeric_list)}")
+print(f"Maximum in 'numeric_list': {max(numeric_list)}")
+print()
+
+# Replace an element
+print(example_list)
+example_list[1] = 3.14
+print(example_list)
+print()
+
+# Replace a slice
+print(example_list)
+example_list[0:2] = [1, 1.5]
+print(f"List after slice replacement: {example_list}")
+print() 
+
+# Delete elements from a slice
+print(example_list)
+del example_list[0:2]
+print(f"List after deleting slice: {example_list}")
+print()
+
