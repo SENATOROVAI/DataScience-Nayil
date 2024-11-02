@@ -14,6 +14,9 @@
 ## Python
   * Clean Code
     * [Chapter 4 Choosing Clear Names](Python/clean_code/chapter_4_choosing_clear_names.ipynb)
+  * Learning Lab
+    * [List Manipulation Tutorial](Python/learning_lab/list_manipulation_tutorial.ipynb)
+    * [List Manipulation Tutorial](Python/learning_lab/list_manipulation_tutorial.py)
   * Made Easy
     * [Chapter 1 Intro To Data Science](Python/made_easy/chapter_1_intro_to_data_science.ipynb)
     * [Chapter 2 Introduction To Py](Python/made_easy/chapter_2_introduction_to_py.ipynb)
