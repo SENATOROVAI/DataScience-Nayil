@@ -1,6 +1,6 @@
 """Этот скрипт демонстрирует основные операции со списками в Python."""
 
-# Create list
+# Create a list
 example_list = [2, 2.5, "Python"]
 print(f"Initial list: {example_list}")
 print()
@@ -17,7 +17,7 @@ cubes_of_odds = [x**3 for x in range(20) if x % 2 == 1]
 print(f"Cubes of odd numbers: {cubes_of_odds}")
 print()
 
-# Letght of list
+# Length of list
 print(f"Letght of cubes_of_odds: {len(cubes_of_odds)}")
 
 for index, element in enumerate(cubes_of_odds, start=1):
@@ -26,12 +26,12 @@ print()
 
 # Check if an element belongs to the list
 print(f"Is 2  in example_list: {2 in example_list}")
-print(f"Is 'Java' in example_list: {"Java" not in example_list}")
+print(f"Is 'Java' in example_list: {'Java' not in example_list}")
 print()
 
 # Concatenate lists
-contact_list = example_list + str_list
-print(f"Concatenated lists: {contact_list}")
+concatenated_list = example_list + str_list
+print(f"Concatenated lists: {concatenated_list}")
 print()
 
 # Repeat list
