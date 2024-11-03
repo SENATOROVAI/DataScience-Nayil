@@ -65,11 +65,10 @@ print()
 print(example_list)
 example_list[0:2] = [1, 1.5]
 print(f"List after slice replacement: {example_list}")
-print() 
+print()
 
 # Delete elements from a slice
 print(example_list)
 del example_list[0:2]
 print(f"List after deleting slice: {example_list}")
 print()
-
