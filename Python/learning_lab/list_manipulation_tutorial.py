@@ -69,6 +69,6 @@ print()
 
 # Delete elements from a slice
 print(example_list)
-del example_list[0:2]
+# del example_list[]
 print(f"List after deleting slice: {example_list}")
 print()
