@@ -15,7 +15,7 @@
 # ---
 
 # %%
-"""Detailed explaining git stash."""
+"""Detailed explaining git stash, от Чингиза."""
 
 # %% [markdown]
 # ### Что такое стэш?
