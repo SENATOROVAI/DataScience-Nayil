@@ -1,13 +1,5 @@
 
 ## Math
-  * Probability Theory
-    * Elementary Course Probability Theory
-      * [Chapter 1 Set Theory](Math/probability_theory/elementary_course_probability_theory/chapter_1_set_theory.ipynb)
-    * Mathprofi
-      * [Classical Probability Problems](Math/probability_theory/mathprofi/classical_probability_problems.ipynb)
-      * [Mathematical Logic Basics Notes](Math/probability_theory/mathprofi/mathematical_logic_basics_notes.ipynb)
-      * [Probability Theory Basics Notes](Math/probability_theory/mathprofi/probability_theory_basics_notes.ipynb)
-    * [Problem Set Classical Probability Definition](Math/probability_theory/problem_set_classical_probability_definition.ipynb)
   * Remember All Emelin
     * [Chapter 02 Equations Inequalities Summary](Math/remember_all_emelin/chapter_02_equations_inequalities_summary.ipynb)
 
