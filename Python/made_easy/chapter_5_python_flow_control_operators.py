@@ -1,16 +1,3 @@
-# ---
-# jupyter:
-#   jupytext:
-#     text_representation:
-#       extension: .py
-#       format_name: light
-#       format_version: '1.5'
-#       jupytext_version: 1.16.4
-#   kernelspec:
-#     display_name: base
-#     language: python
-#     name: python3
-# ---
 """Глава 5 Операторы управления потоком."""
 
 # # Глава 5 Операторы управления потоком
@@ -132,20 +119,29 @@
 #
 # ### 3. Есть ли ошибки в приведенных фрагментах? Если да, то какие.
 #
+
 # а) ```python
 # a = 12
 # if a == 10
 # print("a is equal to 10")
 # ```
-# - Ошибка: отсутствует двоеточие после условия
 #
+
+variable_a = 12
+if variable_a == 10:
+    print("variable_a is equal to 10")
+
 # б) ```python
 # a = 90, b = 15
 # if a <= 100:
 #     print("Value of a is less than 100")
 # ```
 # - Ошибка: неправильное присваивание нескольких переменных
-#
+
+var_a, var_b = 90, 15
+if var_a <= 100:
+    print("Value of var_a is less than 100")
+
 # в) ```python
 # x = 22
 # if x >= 10:
@@ -154,7 +150,13 @@
 #     print("x is less than 10")
 # ```
 # - Ошибка: отсутствует двоеточие после else
-#
+
+var_x = 22
+if var_x >= 10:
+    print("'var_x' is bigger than 10")
+else:
+    print("'var_x' is less than 10")
+
 # г) ```python
 # x = 5
 # if x >= 10:
@@ -163,7 +165,13 @@
 #     print("Value of x is less than 10")
 # ```
 # - Ошибка: else не должен иметь условия
-#
+
+variable_x = 5
+if variable_x >= 10:
+    print(f"Value of 'variable_x' is {variable_x}!")
+else:
+    print("Value of 'variable_x' is less than 10")
+
 # д) ```python
 # x = 5
 # if x > 10:
@@ -174,14 +182,22 @@
 #     print("Value of x is equal to 10")
 # ```
 # - Ошибка: elif не может идти после else
-#
+
+variab_x = 5
+if variab_x > 10:
+    print("Value of 'variab_x' is more than 10")
+elif variab_x == 10:
+    print("Value of 'variab_x' is equal to 10")
+else:
+    print("Value of 'variab_x' is less than 10")
+
 # е) ```python
 # x = 0
 # while x < 5
 # print(x) x =+ 1
 # ```
 # - Ошибки: отсутствует двоеточие после условия, неправильный отступ, неправильный оператор инкремента
-#
+
 # ## 5.9.2 Правда или ложь
 #
 # 1. "Когда оператор if имеет значение true, он выполняет лишь одну инструкцию в коде."
