@@ -23,6 +23,30 @@
 # # код блока else
 # ```
 # - Блок else необязателен
+
+# Проверяем, больше ли число 11
+number = int(input("Enter a number: "))
+if number > 11:
+    print(f"{number} is greater than 11")
+else:
+    print(f"{number} is smaller than 11")
+
+# +
+# Расчет скидки в зависимости от суммы покупки
+# Скидка 20% при покупке свыше 25000
+# Скидка 5% в остальных случаях
+
+total_amount = int(input("Введите общую сумму покупок: "))
+
+if total_amount > 25000:
+    discount = (total_amount * 20) / 100
+else:
+    discount = (total_amount * 5) / 100
+
+final_amount = total_amount - discount
+print(f"Итоговая сумма к оплате: {final_amount},скидка составила: {discount}")
+# -
+
 #
 # ### 5.2.3 Оператор if-elif-else
 # - elif - комбинация else и if
