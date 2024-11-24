@@ -1,9 +1,7 @@
-# %%
 """Глава 6.
 
 Функции.
 """
-
 
 # # 6. Функции
 #
@@ -380,20 +378,24 @@
 
 # ### 1. Напишите функцию, которая проверяет, является ли год високосным.
 
-
-# %%
+# +
 # Задача 1: Проверка високосного года
+
+
 def is_leap(year: int) -> bool:
     """Check if a year is leap."""
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 
 
+# -
+
 # ### 2. Напишите функцию f(х), возвращающую простые множители любого числа х (пример простых множителей: 36 - [2,2,3,3], 30 - [2,3,5]).
 
-
-# %%
+# +
 # Задача 2: Напишите функцию f(х), возвращающую простые множители люб. числа х
 # (пример простых множителей: 36 - [2,2,3,3], 30 - [2,3,5])
+
+
 def get_prime_factors(number: int) -> list[int]:
     """Return prime factors of a number.
 
@@ -424,11 +426,14 @@ def get_prime_factors(number: int) -> list[int]:
     return factors
 
 
+# -
+
 # ### 3. Напишите функцию для преобразования температуры из градусов Цельсия в градусы Фаренгейта. Напишите еще одну функцию для обратного преобразования.
 
-
-# %%
+# +
 # Задача 3: Конвертация температуры
+
+
 def to_fahrenheit(celsius: float) -> float:
     """Convert Celsius temperature to Fahrenheit."""
     return (celsius * 9 / 5) + 32
@@ -439,11 +444,14 @@ def to_celsius(fahrenheit: float) -> float:
     return (fahrenheit - 32) * 5 / 9
 
 
+# -
+
 # ### 4. Напишите функцию для вычисления факториала любого числа.
 
-
-# %%
+# +
 # Задача 4: Вычисление факториала
+
+
 def calculate_factorial(number: int) -> int:
     """Calculate factorial of a number."""
     if number < 0:
@@ -453,10 +461,11 @@ def calculate_factorial(number: int) -> int:
     return number * calculate_factorial(number - 1)
 
 
+# -
+
 # ### 5. Напишите функцию преобразования любого числа от 1 до 100 в римское число.
 
 
-# %%
 def to_roman(number: int) -> str:
     """Convert decimal number to Roman numeral (1-100)."""
     if not 1 <= number <= 100:
@@ -484,9 +493,10 @@ def to_roman(number: int) -> str:
 
 # ### 6. Напишите функцию f(х), которая возвращает таблицу умножения числа х.
 
-
-# %%
+# +
 # Задача 6: Таблица умножения
+
+
 def get_multiplication_table(num: int) -> None:
     """Print multiplication table for a number."""
     print(f"\nMultiplication table for {num}:")
@@ -495,10 +505,11 @@ def get_multiplication_table(num: int) -> None:
         print(f"{num} × {i} = {result}")
 
 
+# -
+
 # ### 7. Напишите функцию, которая принимает в качестве входных данных список и возвращает его перевернутый вариант.
 
 
-# %%
 def reverse_sequence(data: list[int]) -> list[int]:
     """Return reversed version of a list."""
     return data[::-1]
@@ -506,9 +517,10 @@ def reverse_sequence(data: list[int]) -> list[int]:
 
 # ### 8. Напишите функцию для расчета сложных процентов.
 
-
-# %%
+# +
 # Задача 8: Расчет сложных процентов
+
+
 def calculate_interest(
     principal: float, rate: float, years: int, comp_per_year: int = 12
 ) -> float:
@@ -516,11 +528,14 @@ def calculate_interest(
     return principal * (1 + rate / comp_per_year) ** (comp_per_year * years)
 
 
+# -
+
 # ### 9. Напишите функцию f(х), где х - любое 6-значное число, а функция возвращает сумму его цифр.
 
-
-# %%
+# +
 # Задача 9: Сумма цифр шестизначного числа
+
+
 def get_digits_sum(number: int) -> int:
     """Calculate sum of digits in a 6-digit number."""
     if not 100000 <= number <= 999999:
@@ -528,11 +543,14 @@ def get_digits_sum(number: int) -> int:
     return sum(int(digit) for digit in str(number))
 
 
+# -
+
 # ### 10. Напишите функцию, которая проверяет, является ли переданное число простым.
 
-
-# %%
+# +
 # Задача 10: Проверка простого числа
+
+
 def is_prime(number: int) -> bool:
     """Check if a number is prime."""
     if number < 2:

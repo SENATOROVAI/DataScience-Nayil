@@ -1,4 +1,3 @@
-# %%
 """Note-taking for Chapter 4 'Object and Operators in Python' & exercises."""
 
 import math
@@ -426,15 +425,14 @@ speed = 72  # km/h
 
 time = distance / speed
 print(f"Travel time: {time} hours")
-
-
 # -
 
 # 3. Human body temperature ranges from 97 to 99°F. How would this range look in degrees Celsius?
 
-
 # +
 # 3. Temperature conversion
+
+
 def fahrenheit_to_celsius(fahrenheit: float) -> float:
     """Convert Fahrenheit to Celsius."""
     return (fahrenheit - 32) * 5 / 9
