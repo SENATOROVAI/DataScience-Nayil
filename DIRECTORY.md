@@ -3,8 +3,6 @@
   * [Stash](HW/stash.py)
 
 ## Math
-  * Probability
-    * [Problem Set Classical Probability Definition](Math/probability/problem_set_classical_probability_definition.ipynb)
   * Remember All Emelin
     * [Chapter 02 Equations Inequalities Summary](Math/remember_all_emelin/chapter_02_equations_inequalities_summary.ipynb)
     * [Chapter 02 Equations Inequalities Summary](Math/remember_all_emelin/chapter_02_equations_inequalities_summary.py)
